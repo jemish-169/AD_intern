@@ -1,0 +1,158 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">
+Log de Notificação
+</string>
+
+
+    <!--  <string name="google_app_id">1:1035726540825:android:244f8790b64bd594</string>
+      <string name="google_api_key">AIzaSyA4S-oSfR23fqIGotIUWii-4sVEhMoS_cs</string>-->
+    <!-- Activities -->
+    <string name="activity_browse">Notificações</string>
+    <string name="activity_details">Detalhes</string>
+
+    <!-- Menu -->
+    <string name="menu_about">Sobre</string>
+    <string name="menu_refresh">Atualizar</string>
+    <string name="menu_delete">Excluir</string>
+    <string name="menu_export">Exportar</string>
+
+    <!-- Settings categories -->
+    <string name="category_settings">Definições
+</string>
+    <string name="category_actions">Ações</string>
+    <string name="settings">Configurações</string>
+
+    <!-- Status -->
+    <string name="settings_status">Status
+</string>
+    <string name="settings_notification_access_unknown">Desconhecido</string>
+    <string name="settings_notification_access_enabled">ativado
+</string>
+    <string name="settings_notification_access_disabled">Desativado - Clique aqui para ativar</string>
+
+    <!-- Browse -->
+    <string name="settings_browse">Procurar todas as notificações</string>
+    <string name="settings_browse_summary" translatable="false">Clique aqui para ver as notificações mais recentes.</string>
+
+    <string name="action_settings" tools:ignore="MissingTranslation">Definições
+
+
+
+
+</string>
+    <string name="hello_world" tools:ignore="MissingTranslation">Olá Mundo!</string>
+    <string name="favorites">Favoritos</string>
+
+    <string name="opennotifwid">Notificações</string>
+    <string name="add_widget_QR">Adicionar widget</string>
+    <!-- Notifications logged -->
+    <string name="settings_entries">Notificações registradas</string>
+
+    <!-- Log text -->
+    <string name="settings_text">
+Texto de log</string>
+    <string name="settings_text_summary">Registre o conteúdo real das notificações. Aumenta o tamanho do arquivo de log, mas permite que você leia mensagens anteriores.</string>
+
+    //Main
+    <string name="main_browseapp">Procurar notificações</string>
+    <string name="main_browsedecription">Navegue pelos aplicativos de notificação</string>
+    <string name="main_exportlog">Exportar Logs</string>
+    <string name="main_expotdescription">Exportar seus logs</string>
+    <string name="main_tutorial">Tutorial</string>
+    <string name="main_tutorialdes">Aprenda como usar o aplicativo</string>
+    <string name="main_fav">Favorito</string>
+    <string name="main_favdes">
+Sua notificação favorita está aqui
+
+</string>
+    <string name="shareapp">Compartilhe o aplicativo</string>
+    <string name="sharedes">Compartilhar aplicativo com amigos e familiares</string>
+
+    //Settings Activity
+
+    <string name="settings_notificaton">
+Notificações
+    </string>
+    <string name="settings_permissions">Permissões</string>
+    <string name="settings_changelan">Língua</string>
+    <string name="settings_promocheck">Log em andamento</string>
+    <string name="settings_aboutus">Sobre nós
+</string>
+    <string name="settings_privacy">Política de Privacidade</string>
+    <string name="settings_tnc">Termos e Condições</string>
+    <string name="settings_notica">Aviso prévio</string>
+    <string name="settings_logout">Sair</string>
+
+    <string name="about_us"> Xenon Studio, acreditamos que todos merecem ter um aplicativo seguro e útil.
+     Inovação e simplicidade nos fazem felizes: nosso objetivo é fazer com que a IA alcance todos os usuários, com a ajuda da IA ​​cada usuário pode sentir sua vida fácil.
+     Fizemos uma parceria com o Uptodown App Studio Para fazer o Amazing Notification App, onde o usuário pode gerenciar facilmente a notificação de seus telefones
+ App desenvolvido por Xenon Studio,
+
+ App gerenciado por UptoDown Apps Studio
+     Para mais - www.xenonstudio.in/notificationlog</string>
+
+    <!-- Log ongoing -->
+    <string name="settings_ongoing">
+Log em andamento</string>
+    <string name="settings_ongoing_summary">Log ongoing notifications, for example download progresses. Creates a large number of additional log entries.</string>
+
+    <!-- Export -->
+    <string name="snackbar_export">Exporting… please wait…</string>
+
+    <!-- Delete -->
+    <string name="dialog_delete_header">confirme</string>
+    <string name="dialog_delete_text">Você realmente deseja excluir o arquivo de log?
+
+Isto não pode ser desfeito.</string>
+    <string name="dialog_delete_yes">Excluir</string>
+    <string name="dialog_delete_no">Cancel</string>
+
+    <!-- Version -->
+    <string name="settings_version">Cancelar</string>
+
+    <!-- Details -->
+    <string name="details_error">Não foi possível carregar os detalhes desta entrada.</string>
+    <string name="empty_log_file">Nenhuma notificação registrada ainda!</string>
+    <string name="open_notification_settings">
+
+Configurações de notificação</string>
+
+    <!-- Delete Notification -->
+    <string name="delete_dialog_title" translatable="false">Delete notification</string>
+    <string name="delete_dialog_text" translatable="false">Do you really want to delete this notification? This cannot be undone.</string>
+    <string name="delete_dialog_yes" translatable="false">Delete</string>
+    <string name="delete_dialog_no" translatable="false">Cancel</string>
+    <string name="appwidget_text">EXAMPLE</string>
+    <string name="add_widget">Add widget</string>
+    <string name="title_activity_selected_notif">SelectedNotifActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_tools">Tools</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+
+    <!-- AdMob ad unit IDs -->
+    <string name="admob_app_id">ca-app-pub-XXXXXXXX~XXXXXXXXXXX</string>
+    <string name="banner_home_footer">ca-app-pub-XXXXXXXX~XXXXXXXXXXX</string>
+    <string name="interstitial_full_screen">ca-app-pub-XXXXXXXX~XXXXXXXXXXX</string>
+    <string name="rewarded_video">ca-app-pub-XXXXXXXX~XXXXXXXXXXX</string>
+
+    <string name="send_sug">
+Enviar sugestões
+</string>
+ <string name="heldet">Please Enter Details</string>
+ <string name="report">Informar problema</string>
+
+    <string name="help">Socorro</string>
+    <string name="faqs">FAQs</string>
+
+    <string name="settings_data">Ajude-nos a melhorar o aplicativo</string>
+    <string name="settings_datamore">Permitir que o aplicativo envie o uso anônimo de dados</string>
+</resources>

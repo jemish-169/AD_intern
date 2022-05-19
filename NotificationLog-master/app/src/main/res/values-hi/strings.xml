@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Notification Log</string>
+    <string name="settings_notification_access_disabled">अक्षम - सक्षम करने के लिए यहां क्लिक करें</string>
+    <string name="menu_delete">हटाना</string>
+    <string name="activity_browse">ब्राउज</string>
+    <string name="activity_details">विवरण</string>
+    <string name="category_actions">क्रिया</string>
+    <string name="category_settings">क्रिया</string>
+    <string name="change_language">भाषा बदलो</string>
+    <string name="delete_dialog_no">रद्द करना</string>
+    <string name="delete_dialog_text">क्या आप वास्तव में इस सूचना को हटाना चाहते हैं? इसे असंपादित नहीं किया जा सकता है।</string>
+    <string name="delete_dialog_title">अधिसूचना हटाएं</string>
+    <string name="delete_dialog_yes">स्थिति</string>
+    <string name="details_error">Unable to load the details of this entry.</string>
+    <string name="dialog_delete_no">रद्द करना</string>
+    <string name="dialog_delete_text">मिटाने की पुष्टि</string>
+    <string name="dialog_delete_yes">हटाना</string>
+    <string name="empty_log_file">अभी तक कोई सूचना नहीं मिली!</string>
+    <string name="menu_about">के बारे में</string>
+    <string name="menu_export">निर्यात</string>
+    <string name="snackbar_export">निर्यात कर रहा है ... कृपया प्रतीक्षा करें ...</string>
+    <string name="settings_version">संस्करण</string>
+    <string name="settings_text">पाठ लॉग करें</string>
+    <string name="settings_ongoing_summary">डाउनलोड के रूप में चल रहे नोटिफिकेशन लॉग करें। यह बड़ी संख्या में अतिरिक्त लॉग प्रविष्टियाँ बनाता है।</string>
+    <string name="settings_status">स्थिति</string>
+    <string name="settings_notification_access_unknown">अनजान</string>
+    <string name="settings_ongoing">लॉग ऑन करना</string>
+    <string name="settings_notification_access_enabled">सक्रिय</string>
+    <string name="settings_browse">अधिसूचनाएँ ब्राउज़ करें</string>
+    <string name="settings_about_summary">GitHub पर अधिसूचना लॉग। एमआईटी लाइसेंस के तहत लाइसेंस प्राप्त।</string>
+    <string name="settings_about">के बारे में</string>
+    <string name="open_notification_settings">अधिसूचना सेटिंग</string>
+    <string name="menu_refresh">ताज़ा करना</string>
+    <string name="notification_access_label">\@string/app_name</string>
+    <string name="settings_browse_summary_plural">%1$d notifications</string>
+    <string name="settings_text_summary">वास्तविक अधिसूचना सामग्री लॉग करें। यह लॉग फ़ाइल का आकार बढ़ाता है लेकिन आपको पिछले संदेशों को पढ़ने की अनुमति देता है।</string>
+    <string name="dialog_delete_header">मिटाने की पुष्टि</string>
+    <string name="settings_browse_summary_singular">%1$d notification</string>
+
+
+    //Main
+    <string name="main_browseapp">अधिसूचनाएँ ब्राउज़ करें</string>
+    <string name="main_browsedecription">नोटिफ़िकेशन ऐप वाइज ब्राउज़ करें</string>
+    <string name="main_exportlog">लॉग्स भेजें</string>
+    <string name="main_expotdescription">अपने लॉग भेजें</string>
+    <string name="main_tutorial">ट्यूटोरियल</string>
+    <string name="main_tutorialdes">जानिए कैसे करें ऐप का इस्तेमाल</string>
+    <string name="main_fav">पसंदीदा</string>
+    <string name="main_favdes">आपका पसंदीदा अधिसूचना यहाँ हैं</string>
+    <string name="shareapp">ऐप शेयर करें</string>
+    <string name="sharedes">दोस्तों और परिवार के साथ शेयर ऐप</string>
+
+    <string name="settings">सेटिंग</string>
+
+
+    <string name="settings_notificaton">सूचनाएं</string>
+    <string name="settings_permissions">अनुमतियां</string>
+    <string name="settings_promocheck">लॉग ऑन करना</string>
+    <string name="settings_aboutus">हमारे बारे में</string>
+    <string name="settings_privacy">गोपनीयता नीति</string>
+    <string name="settings_tnc">नियम और शर्तें</string>
+    <string name="settings_logout">लोग आउट</string>
+    <string name="settings_changelan">" भाषा"</string>
+    <string name="settings_notica">नोटिस</string>
+
+
+    <string name="about_us">At Xenon Studio, we believe everyone deserves to have a safe, secure and useful app.
+        Innovation and simplicity makes us happy: our goal is to make AI reach every user, with the help of AI every user can feel his/her life easy.
+        We Have partnered with Uptodown App Studio To make Amazing Notification App, where user can easily manage there phones notification
+    App Developed By Xenon Studio,
+
+    App Managed By UptoDown Apps Studio
+        For More - www.xenonstudio.in/notificationlog</string>
+
+    <!-- Delete Notification -->
+
+    <string name="appwidget_text">EXAMPLE</string>
+    <string name="add_widget">Add widget</string>
+    <string name="title_activity_selected_notif">SelectedNotifActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_tools">Tools</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+
+    <string name="favorites">पसंदीदा</string>
+
+    <string name="opennotifwid">Notifications</string>
+    <string name="add_widget_QR">Add widget</string>
+    <!-- Notifications logged -->
+    <string name="settings_entries">Notifications logged</string>
+
+    <!-- AdMob ad unit IDs -->
+    <string name="admob_app_id">ca-app-pub-XXXXXXXX~XXXXXXXXXXX</string>
+    <string name="banner_home_footer">ca-app-pub-XXXXXXXX~XXXXXXXXXXX</string>
+    <string name="interstitial_full_screen">ca-app-pub-XXXXXXXX~XXXXXXXXXXX</string>
+    <string name="rewarded_video">ca-app-pub-XXXXXXXX~XXXXXXXXXXX</string>
+
+    <string name="send_sug">सुझाव भेजें</string>
+
+ <string name="report">रिपोर्ट जारी करना</string>
+ <string name="settings_data">मदद एप्लिकेशन में सुधार</string>
+    <string name="settings_datamore">एप्लिकेशन को डेटा का बेनामी उपयोग भेजने की अनुमति दें</string>
+
+
+    <string name="help">मदद</string>
+    <string name="faqs">पूछे जाने वाले प्रश्न</string>
+    <string name="heldet">कृपया विवरण दर्ज करें</string>
+
+</resources>

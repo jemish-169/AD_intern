@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:visible="true"
+        android:id="@+id/menu_delete"
+        android:title="@string/menu_delete"
+        app:showAsAction="never" />
+
+    <item
+        android:visible="true"
+        android:id="@+id/menu_favorite"
+        android:icon="@drawable/ic_stars_black_24dp"
+        android:title="Favorites"
+        app:showAsAction="always"/>
+
+    <item
+        android:visible="false"
+        android:id="@+id/menu_favorite_remove"
+        android:icon="@drawable/ic_delete_black_24dp"
+        android:title="Remove from Favorites"
+        app:showAsAction="always"/>
+
+</menu>

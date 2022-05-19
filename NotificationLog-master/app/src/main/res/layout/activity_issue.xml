@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".ui.IssueActivity">
+
+    <ImageView
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:background="@drawable/ic_access_time_black_24dp"
+        android:layout_margin="20dp"
+        android:layout_gravity="center" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:layout_margin="10dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:fontFamily="@font/robolightfont"
+        android:layout_marginTop="30dp"
+        android:textSize="20dp"
+        android:text="It Seems, No Notification Has Been Logged Yet !\n\nCome Back Once You Start Receiving Notification"/>
+
+    <Button
+        android:id="@+id/button_check"
+        android:visibility="visible"
+        android:gravity="center"
+        android:textColor="@color/mainback"
+        android:layout_margin="14dp"
+
+        android:fontFamily="@font/robofont"
+        android:background="@drawable/roundbtndesign"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Retry"/>
+
+    <Button
+        android:id="@+id/button_allow"
+        android:visibility="visible"
+        android:gravity="center"
+        android:textColor="@color/mainback"
+        android:layout_margin="14dp"
+
+        android:fontFamily="@font/robofont"
+        android:background="@drawable/roundbtndesign"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Check Permission"/>
+
+
+    <Button
+        android:id="@+id/button_faqs"
+        android:visibility="visible"
+        android:gravity="center"
+        android:textColor="@color/mainback"
+        android:layout_margin="14dp"
+
+        android:fontFamily="@font/robofont"
+        android:background="@drawable/roundbtndesign"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Read FAQs"/>
+    <Button
+        android:id="@+id/button_help"
+        android:visibility="visible"
+        android:gravity="center"
+
+        android:fontFamily="@font/robofont"
+        android:background="@drawable/roundbtndesign"
+        android:textColor="@color/mainback"
+        android:layout_margin="14dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ask For Help"/>
+
+</LinearLayout>

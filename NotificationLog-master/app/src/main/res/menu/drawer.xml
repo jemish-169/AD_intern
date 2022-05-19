@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    app:itemTextAppearance="@style/RobotoTextViewStyle"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:icon="@drawable/ic_sidebar_allnotifications"
+            android:id="@+id/nav_all_notifications"
+            android:fontFamily="@font/fontmosmed"
+            app:itemTextAppearance="@style/RobotoTextViewStyle"
+            android:fitsSystemWindows="true"
+            android:title="@string/settings_browse" />
+        <item
+            android:icon="@drawable/ic_sidebar_notificationsbyapps"
+            android:id="@+id/nav_notifications_by_apps"
+            android:fontFamily="@font/fontmosmed"
+            android:title="@string/main_browsedecription" />
+
+        <item
+            android:icon="@drawable/ic_show_chart_black_24dp"
+            android:id="@+id/nav_stats"
+            app:actionViewClass="android.widget.TextView"
+            android:fontFamily="@font/fontmosmed"
+            android:title="Statistics " />
+
+        <item
+            android:icon="@drawable/ic_share_new"
+            android:id="@+id/nav_export_logs"
+            android:fontFamily="@font/myfont"
+            android:title="@string/shareapp" />
+
+
+        <item
+            android:icon="@drawable/ic_monetization_on_black_24dp"
+            android:id="@+id/nav_refer"
+            android:fontFamily="@font/fontmosmed"
+            android:title="Refer &amp; Earn" />
+        <item
+            android:icon="@drawable/ic_star"
+            android:id="@+id/nav_favourites"
+            android:fontFamily="@font/myfont"
+            android:title="@string/favorites" />
+        <item
+            android:icon="@drawable/ic_lightbulb_outline_black_24dp"
+            android:id="@+id/nav_how_to_use"
+            android:fontFamily="@font/myfont"
+            android:title="@string/main_tutorial" />
+        <item
+            android:icon="@drawable/ic_settings_black_24dp"
+            android:id="@+id/nav_settings"
+            android:fontFamily="@font/myfont"
+            android:title="@string/settings" />
+
+        <item
+            android:icon="@drawable/ic_support"
+            android:id="@+id/nav_support"
+            android:fontFamily="@font/myfont"
+            android:title="Support Us" />
+
+        <item
+            android:icon="@drawable/ic_sidebar_how_to_use"
+            android:id="@+id/nav_help"
+            android:fontFamily="@font/myfont"
+            android:title="@string/help" />
+    </group>
+
+</menu>
